@@ -1,0 +1,8 @@
+.container{display: flex;}
+
+nav a{
+    text-decoration: none;
+    flex: 1
+}
+
+#stuff{background-color: aqua;}
