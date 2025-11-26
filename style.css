@@ -1,6 +1,17 @@
 .container{display: flex;}
 
+.column{flex-direction: column;}
+
 nav a{
+    font-size: 30px;
+    max-height: 70px;
+    text-align: center;
     text-decoration: none;
-    flex: 1
+    flex: 2
+}
+
+#main h1{
+    font-size: 70px;
+    text-align: center;
+    flex: 1;
 }
