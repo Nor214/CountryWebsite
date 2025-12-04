@@ -7,6 +7,7 @@
 .column{flex-direction: column;}
 
 nav a{
+    transition: all 0.2s;
     background-color: black;
     color: white;
     font-size: 30px;
@@ -25,6 +26,10 @@ nav a:hover{
     font-size: 70px;
     text-align: center;
     flex: 1;
+}
+
+#main h1:hover{
+    font-style: bol;
 }
 
 #yip{
@@ -48,4 +53,20 @@ nav a:hover{
 .background-element img{
     filter: sepia(100%) hue-rotate(90deg) brightness(50%);
 }
+
+#gallery img{
+    padding: 50px;
+}
+
+.gallery div img{
+    transition: all 0.2s;
+    flex: 2;
+    padding: 40px;
+}
+
+.gallery div img:hover{
+    transform: scale(1.03);
+    filter: sepia(60%) brightness(80%);
+}
+
 
