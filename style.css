@@ -1,5 +1,6 @@
 *{
     font-family: 'Courier New';
+    font-weight: bold;
 }
 
 .container{display: flex;}
@@ -51,7 +52,7 @@ nav a:hover{
 }
 
 .background-element img{
-    filter: sepia(100%) hue-rotate(90deg) brightness(50%);
+    filter: sepia(100%) hue-rotate(10deg) brightness(50%);
 }
 
 #gallery img{
@@ -68,5 +69,22 @@ nav a:hover{
     transform: scale(1.03);
     filter: sepia(60%) brightness(80%);
 }
+
+.CultureMain{
+    color: white;
+    padding: 50px;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+.CultureMain img{
+    transition: all 0.2s;
+}
+
+.CultureMain img:hover{
+    transform: scale(1.01);
+    filter: contrast(105%) brightness(105%);
+}
+
 
 
