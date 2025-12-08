@@ -46,11 +46,6 @@ nav a:hover{
     text-align: center;
 }
 
-.background-element{
-    z-index: -1;
-    position: absolute;
-}
-
 .background-element img{
     filter: sepia(100%) hue-rotate(10deg) brightness(50%);
 }
@@ -85,6 +80,15 @@ nav a:hover{
     transform: scale(1.01);
     filter: contrast(105%) brightness(105%);
 }
+
+
+    .CultureMain{
+        background-image: url(Images/Manilla.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
 
 
 
