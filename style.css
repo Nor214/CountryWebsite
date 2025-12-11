@@ -52,6 +52,16 @@ nav a:hover{
 
 #gallery img{
     padding: 50px;
+    border-radius: 20px;
+}
+
+.TextLandscapes{
+    opacity: 1;
+    font-size: 50px;
+    color: rgba(255, 255, 255);
+    position: absolute;
+    top: 27%;
+    left: 14%;
 }
 
 .gallery div img{
@@ -63,6 +73,10 @@ nav a:hover{
 .gallery div img:hover{
     transform: scale(1.03);
     filter: sepia(60%) brightness(80%);
+}
+
+.gallery div img:hover .TextLandscapes{
+    opacity: 1;
 }
 
 .CultureMain{
@@ -89,12 +103,9 @@ nav a:hover{
         background-position: center center;
     }
 
-.TextLandscapes{
-    color: white;
-    position: absolute;
-    top: 30%;
-    left: 15%;
-}
+
+
+
 
 
 
