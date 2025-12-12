@@ -103,6 +103,38 @@ nav a:hover{
         background-position: center center;
     }
 
+.cards{
+    margin-bottom: 67px;
+    margin-left: 100px;
+    transition: 0.3s;
+    flex-direction: column;
+    border-radius: 25px;
+    background-color: rgba(87, 87, 87, 0.438);
+    color: rgb(255, 255, 255);
+    max-width: 400px;
+}
+
+.cards:hover{
+    transform: scale(1.03);
+}
+
+.cards img{
+    padding: 35px;
+    width: 305;
+    height: 305;
+    border-radius: 25px;
+}
+
+.cards h1{
+    font-weight: bold;
+    padding-left: 35px
+}
+
+.cards p{
+    font-size: 18px;
+    padding-left: 35px;
+}
+
 
 
 
